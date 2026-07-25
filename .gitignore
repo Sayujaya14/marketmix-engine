@@ -24,6 +24,13 @@ logs/
 reports/
 figures/
 
+# Same outputs if notebooks were run with cwd = notebooks/
+notebooks/data/
+notebooks/models/
+notebooks/logs/
+notebooks/reports/
+notebooks/figures/
+
 # Keep packaged source data
 !data/mmm_raw_data.zip
 
